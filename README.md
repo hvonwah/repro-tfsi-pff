@@ -3,7 +3,8 @@ This repository contains the reproduction scripts and resulting data for the wor
 **References**
 
 [1] H. von Wahl and T. Wick. A high-accuracy framework for phase-field fracture interface reconstructions with application to Stokes fluid-filled fracture surrounded by an elastic medium. Comput. Methods Appl. Mech. Engrg., 415:116202, October 2023. [Code repository](https://github.com/hvonwah/stationary_phase_field_stokes_fsi).
-[1] H. von Wahl, T. Wick, A coupled high-accuracy phase-field fluid–structure interaction framework for stokes fluid-filled fracture surrounded by an elastic medium, Results Appl. Math. 22:100455, May 2024 [Code repository](https://github.com/hvonwah/repro-coupled-phase-field-fsi).
+
+[2] H. von Wahl, T. Wick, A coupled high-accuracy phase-field fluid–structure interaction framework for stokes fluid-filled fracture surrounded by an elastic medium, Results Appl. Math. 22:100455, May 2024 [Code repository](https://github.com/hvonwah/repro-coupled-phase-field-fsi).
 
 
 # Files
