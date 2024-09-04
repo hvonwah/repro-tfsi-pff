@@ -1,0 +1,59 @@
+# Get NGSOLVE and NETGEN
+
+
+git clone https://github.com/NGSolve/ngsolve.git src-ngs
+cd src-ngs
+git checkout 3daa7e00558dc98b5ca226af4e31a9f6cb502b01
+git submodule update --recursive --init
+
+cd ..
+mkdir inst build-ngs
+
+cd build-ngs
+
+# BUILD NGSOLVE using cmake. The details may depend of your computer and 
+# OS/distribution. For further details and cmake options, see the documentation
+# at https://docu.ngsolve.org/nightly/install/install_sources.html
+
+cmake \
+-DCMAKE_BUILD_TYPE=RELEASE \
+-DMKL_ROOT=${MKLROOT} \
+-DCMAKE_INSTALL_PREFIX=../inst \
+-DUSE_GUI=OFF \
+-DUSE_UMFPACK=ON \
+-DUSE_MKL=ON \
+-DUSE_MPI=OFF \
+-DUSE_OCC=ON \
+-DBUILD_OCC=ON \
+../src-ngs/
+
+make
+make install
+
+# Now the executables in inst/bin have to be added to the PATH and the location
+# of the python libraries have to be added to the PYTHONPATH
+
+# Get NGS-XFEM
+
+cd ..
+git clone https://github.com/ngsxfem/ngsxfem.git src-xfem
+cd src-xfem
+git checkout a6c7116e86f44180736e19f9b64c896105c09059
+cd ..
+
+mkdir build-xfem
+cd build-xfem
+
+# BUILD NGS-XFEM using cmake. For additional install instructions, see
+# https://github.com/ngsxfem/ngsxfem/blob/release/INSTALLATION.md
+
+cmake \
+-DCMAKE_INSTALL_PREFIX=../inst \
+-DCMAKE_CXX_COMPILER=ngscxx \
+-DBUILD_NGSOLVE=OFF \
+-DBUILD_STUB_FILES=OFF \
+../src-xfem/
+
+
+make
+make install

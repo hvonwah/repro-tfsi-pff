@@ -1,0 +1,3 @@
+results/*.vtu
+results/*.pvd
+**.DS_Store
