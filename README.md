@@ -1,10 +1,12 @@
-This repository contains the reproduction scripts and resulting data for the work "A thermo-flow-mechanics-fracture model coupling a phase-field interface approach and thermo-fluid-structure interaction" by S. Lee, H. v. Wahl and T. Wick. The code is based in parts on our previous work [1,2].
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13685486.svg)](https://doi.org/10.5281/zenodo.13685486)
+
+This repository contains the reproduction scripts and resulting data for:"S. Lee, H. v. Wahl and T. Wick, A thermo-flow-mechanics-fracture model coupling a phase-field interface approach and thermo-fluid-structure interaction.  [arXiv:2409.03416](https://arxiv.org/abs/2409.03416) [math.NA]". The code is based in parts on our previous work [1,2].
 
 **References**
 
-[1] H. von Wahl and T. Wick. A high-accuracy framework for phase-field fracture interface reconstructions with application to Stokes fluid-filled fracture surrounded by an elastic medium. Comput. Methods Appl. Mech. Engrg., 415:116202, October 2023. [Code repository](https://github.com/hvonwah/stationary_phase_field_stokes_fsi).
+[1] H. von Wahl and T. Wick. A high-accuracy framework for phase-field fracture interface reconstructions with application to Stokes fluid-filled fracture surrounded by an elastic medium. Comput. Methods Appl. Mech. Engrg., 415:116202, October 2023, [doi:10.1016/j.cma.2023.116202](https://doi.org/10.1016/j.cma.2023.116202). [Code repository](https://github.com/hvonwah/stationary_phase_field_stokes_fsi).
 
-[2] H. von Wahl, T. Wick, A coupled high-accuracy phase-field fluid–structure interaction framework for stokes fluid-filled fracture surrounded by an elastic medium, Results Appl. Math. 22:100455, May 2024 [Code repository](https://github.com/hvonwah/repro-coupled-phase-field-fsi).
+[2] H. von Wahl, T. Wick, A coupled high-accuracy phase-field fluid–structure interaction framework for stokes fluid-filled fracture surrounded by an elastic medium, Results Appl. Math. 22:100455, May 2024, [doi:10.1016/j.rinam.2024.100455](https://doi.org/10.1016/j.rinam.2024.100455). [Code repository](https://github.com/hvonwah/repro-coupled-phase-field-fsi).
 
 
 # Files
