@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13685486.svg)](https://doi.org/10.5281/zenodo.13685486)
 
-This repository contains the reproduction scripts and resulting data for:"S. Lee, H. v. Wahl and T. Wick, A thermo-flow-mechanics-fracture model coupling a phase-field interface approach and thermo-fluid-structure interaction.  [arXiv:2409.03416](https://arxiv.org/abs/2409.03416) [math.NA]". The code is based in parts on our previous work [1,2].
+This repository contains the reproduction scripts and resulting data for "S. Lee, H. v. Wahl and T. Wick, A thermo-flow-mechanics-fracture model coupling a phase-field interface approach and thermo-fluid-structure interaction.  [arXiv:2409.03416](https://arxiv.org/abs/2409.03416) [math.NA]". The code is based in parts on our previous work [1,2].
 
 **References**
 
